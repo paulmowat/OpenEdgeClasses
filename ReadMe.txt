@@ -1,0 +1,1 @@
+OpenEdge Classes - Coded with 10,2b + In mind
