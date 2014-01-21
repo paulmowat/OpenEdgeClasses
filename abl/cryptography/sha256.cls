@@ -21,7 +21,7 @@ USING System.Text.*.
 
 ROUTINE-LEVEL ON ERROR UNDO, THROW.
 
-CLASS abl.cryptography.sha256: 
+CLASS ABL.Cryptography.SHA256: 
   
 	/*------------------------------------------------------------------------------
     Purpose:  Conversts a string into a SHA256 code																  
@@ -33,7 +33,7 @@ CLASS abl.cryptography.sha256:
 		Notes:  																	  
 	------------------------------------------------------------------------------*/	
 				
-	CONSTRUCTOR PUBLIC sha256 ( ):
+	CONSTRUCTOR PUBLIC SHA256 ( ):
 		SUPER ().		
            		
 	END CONSTRUCTOR.

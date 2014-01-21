@@ -24,14 +24,14 @@ USING System.IO.*.
 
 ROUTINE-LEVEL ON ERROR UNDO, THROW.
 
-CLASS abl.misc.irmark: 
+CLASS ABL.Misc.IRMark: 
 
   /*------------------------------------------------------------------------------
 	  Purpose:  																	  
     Notes:  																	  
 	------------------------------------------------------------------------------*/
 		
-	CONSTRUCTOR PUBLIC irmark ( ):
+	CONSTRUCTOR PUBLIC IRMark ( ):
 		SUPER ().
 				
 	END CONSTRUCTOR.
